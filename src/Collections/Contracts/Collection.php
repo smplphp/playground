@@ -223,7 +223,7 @@ interface Collection extends Enumerable
      *
      * This method is considered the inverse of {@see self::removeIf()}.
      *
-     * @param \Smpl\Logic\Contracts\Predicate $predicate
+     * @param \Smpl\Logic\Contracts\Predicate<ElType> $predicate
      *
      * @return bool
      */
